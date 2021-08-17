@@ -13,12 +13,11 @@ output:
       highlightLines: true
       countIncrementalSlides: false
       ratio: "16:9"
-
 ---
 
 ```{r xaringan-themer, include=FALSE, warning=FALSE}
 # #This block contains the theme configuration for the CSS lab slides style
-library(xaringanthemer)
+library(xaringanthemer) #
 library(showtext)
 style_mono_accent(
   base_color = "#1f5c99",
