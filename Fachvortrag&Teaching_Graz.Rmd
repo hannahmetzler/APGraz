@@ -77,13 +77,13 @@ fear averted gaze picture?
 .left-column[
 **Social media...**
 
-As a **tool**
+**As a tool**
 
 <br>
-Their **effects**
+**Effects**
 
 <br>
-As **environments**
+**Environments**
 ]
 --
 <br>
@@ -193,6 +193,41 @@ knitr::include_graphics("figures/Anxiety.svg")
 ```{r, echo=FALSE, out.width=650, fig.align='right'}
 knitr::include_graphics("figures/Sadness.svg")
 ```
+]]
+
+---
+
+
+# Media effects research on suicide
+
+News reporting on suicide influences suicidal behavior in individuals at risk
+
+.pull-left[.center-left[
+```{r, echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("figures/Werther.png")
+```
+
+Reports on suicide deaths: <br>
+**Werther** effect
+<font size="5">
+<a href='https://www.bmj.com/content/368/bmj.m575'> Meta-analysis: Niederkrotenthaler et al. 2020 </a>
+</font>
+
+]]
+
+.pull-right[.center-right[
+
+```{r, echo=FALSE, out.width=200, fig.align='center'}
+knitr::include_graphics("figures/Papageno.png")
+```
+
+Stories of hope & coping: <br> 
+**Papageno** effect  <br> (e.g. )
+<font size="5">
+<a href='https://www.doi.org/10.1192/bjp.bp.109.074633'> Niederkrotenthaler et al. 2010 </a>
+</font>
+
+
 ]]
 
 ---
