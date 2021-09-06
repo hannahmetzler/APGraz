@@ -42,71 +42,71 @@ background-size: contain
 # The Role of Emotions in Digital Communication
 ## Research lecture for the Assistant Professor Position on *Digital Technologies and Psychology*
 ### Mag. Dr. Hannah Metzler
-### 09.09.2021
+### 09.09.2021 - University of Graz
+
+---
+layout: true
+<div class="my-footer"><span>
+<a href="https://psyarxiv.com/t8mhw"> Metzler et al. Psyarxiv (2020) - </a>
+<a href="https://rdcu.be/8Gx5"> Chadwick*, Metzler* et al. Motivation & Emotion (2019) - </a>
+<a href="https://peerj.com/articles/6726"> Metzler & Grèzes. PeerJ (2019)</a>
+</span></div>
 
 ---
 
-# Emotions and Social Factors in Non-Verbal Social Interaction
+# Emotions in non-verbal social interaction
 
-.pull-left[
-- Emotions direct attention 
-- Emotions determine relevance
+.left-column[
+<br>
 
-Schema:
+Emotions
+- attract attention
 
-* Stimulus - Perceiver
-* Perceived/expressed emotion - felt emotion
+- direct attention & behavior
+
 ]
 
-```{r, echo=FALSE, out.width=925}
-# knitr::include_graphics("figures/Lab-July2021.png")
+
+.right-column[.center-right[
+```{r, echo=FALSE, out.width=700}
+knitr::include_graphics("figures/nonverbal.jpg")
 ```
+]]
 
-<!-- ```{r, echo=FALSE, out.width=900} -->
-<!-- knitr::include_graphics("figures/Hype1.svg") -->
-<!-- ``` -->
-
-???
-
-face in the crowd picture?
-fear averted gaze picture?
+---
+layout: true
 
 ---
 
-# Emotions in Digital Communication
+# Emotions in digital communication
+
 .left-column[
 **Social media...**
 
-**As a tool**
+**Tool**
 
+<br>
 <br>
 **Effects**
 
 <br>
-**Environments**
+**Environment**
 ]
 --
 <br>
 .right-column[
 
-* Tracking collective emotions during COVID-19
-* Validity of social media sentiment measures <br> <br>
-* Effects of media content on mental health, <br> e.g. suicidal behavior <br> <br>
+* Sentiment analysis to capture collective emotions during the COVID-19 outbreak
+* Validity of social media emotion macroscopes <br> <br>
+* Effects of social media content on mental health, <br> e.g. suicidal behavior <br> <br>
 * Behavior on social media: <br>
 Misinformation spreading & advocacy for societal causes 
 ]
 
+
 ???
-* Collective emotions during the COVID-19 outbreak
-  * Mental health: Suicide
-  * Socio-emotional effects on 
-      - misinformation spreading 
-      - advocacy for societal causes
-covid emotions picture
-suicide tweets picture
-
----
-
+tool that allows measuring things that we could not measure otherwise
+Macroscopes: emotion measures at the level of populations
 
 ---
 layout: true
@@ -115,7 +115,7 @@ layout: true
 
 ---
 
-# Collective emotions & COVID-19
+# Collective emotions during COVID-19
 
 .pull-left[
 **Social media data**
@@ -125,8 +125,8 @@ layout: true
 * Geolocation: 18 countries
 
 **Computational Methods**
-* Validated emotion dictionaries
 * Automated text-analysis
+* Validated emotion dictionaries
 * Robustness: Machine Learning
 * GLMEMs
 ]
@@ -141,7 +141,9 @@ knitr::include_graphics("figures/EmotionTimelines2020_Italy.svg")
 
 ???
 
-ML: (Deep learning: RoBERTa)
+ML: Deep learning: RoBERTa fine-tuned to tweets
+Generalized Linear Mixed Effect Models
+After image: link to stringency and cases in plot: association with real world events
 
 ---
 
@@ -159,31 +161,27 @@ knitr::include_graphics("figures/correlation_anx_cases_week1.svg")
 ```
 ]]
 
-
-
-
 ---
-
 layout: true
 <div class="my-footer"><span>
-<a href=https://arxiv.org/abs/2107.13236> Social media emotion macroscopes reflect emotional experiences in society at large. Garcia, Pellert, Lasser, Metzler. arXiv (2021)</a></span></div>
+<a href=https://arxiv.org/abs/2107.13236> Garcia, Pellert, Lasser, Metzler. arXiv (2021) - </a>
+<a href=https://arxiv.org/abs/2108.07646> Pellert, Metzler, Matzenberger & Garcia. arXiv (2021) </a></span></div>
 
 ---
 
-# Validity of Emotion Measures
+# Validity of emotion macroscopes
 
-.pull-left[
+.pull-left[.center-left[
 * 2 year period
 
 * UK Twitter data
-
 * YouGov: Weekly representative UK emotion survey
 
 * Automated text-analysis & Machine Learning
-
 * Pre-registered hypotheses for prediction period
 
-]
+* Similar results for Austria
+]]
 
 .pull-right[.center-right[
 ```{r, echo=FALSE, out.width=650, fig.align='right'}
@@ -196,9 +194,28 @@ knitr::include_graphics("figures/Sadness.svg")
 ]]
 
 ---
+layout: true
+
+---
+
+# Social Media as a Tool
+
+* Frequent data: daily changes
+* Historical data: data before and during early phase of event
+* Collective emotions: interactions between people
+* Indirect measures: No (emotional) memory or reporting biases 
+Check terms from bit by bit
+
+Advantages: 
+* Cost and efficiency
+* Includes people hard to reach with surveys 
 
 
-# Media effects research on suicide
+
+
+---
+
+# Media Effects Research on Suicide
 
 News reporting on suicide influences suicidal behavior in individuals at risk
 
@@ -207,11 +224,12 @@ News reporting on suicide influences suicidal behavior in individuals at risk
 knitr::include_graphics("figures/Werther.png")
 ```
 
+<div style="text-align:center">
 Reports on suicide deaths: <br>
-**Werther** effect
-<font size="5">
+<span style="font-weight: bold; color:#1f5c99"> Werther</span> effect <br>
+<font size="4">
 <a href='https://www.bmj.com/content/368/bmj.m575'> Meta-analysis: Niederkrotenthaler et al. 2020 </a>
-</font>
+</font> </div>
 
 ]]
 
@@ -221,23 +239,90 @@ Reports on suicide deaths: <br>
 knitr::include_graphics("figures/Papageno.png")
 ```
 
+<div style="text-align:center">
 Stories of hope & coping: <br> 
-**Papageno** effect  <br> (e.g. )
-<font size="5">
-<a href='https://www.doi.org/10.1192/bjp.bp.109.074633'> Niederkrotenthaler et al. 2010 </a>
-</font>
-
-
+<span style="font-weight: bold; color:#1f5c99"> Papageno</span> effect  <br> 
+<font size="4">
+<a href='https://www.doi.org/10.1192/bjp.bp.109.074633'> (e.g. ) Niederkrotenthaler et al. 2010 </a>
+</font> </div>
 ]]
+
+<div style="text-align:center; font-weight: bold; color:#1f5c99"> Content and language matter </div>
+
+---
+layout: true
+<div class="my-footer"><span> 
+A Machine Learning approach to media effects research on suicide. Metzler, Baginski, Niederkrotenthaler & Garcia (in prep.) </span></div>
 
 ---
 
+# Machine Learning Classification of Harmful & Protective Content
+
+.pull-left[
+* Social media content on suicide
+* Big data for robust results
+* 14.5 million US tweets 2013-2020
+]
+--
+
+.pull-right[
+* Scheme: typical content categories
+* Leverage Artificial Intelligence:
+Traditional ML & Deep Learning
+
+]
+
+--
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("figures/MLresults_per_category.svg")
+```
+
+
+???
+Social media: young adults and new content types, but few studies
+Small datasets with manual labelling: Big data
+Best performance with BERT
+Different metrics related to how many false positives and false negative errors the model makes, that I will explain more in the teaching lecture
+
+---
+layout: true
+<div class="my-footer"><span> 
+ Niederkrotenthaler, Tran, Baginski,..., & Metzler (in prep.) </span></div>
+
+---
+
+# Associations with Suicides & Helpline Calls
+
+Time series analyses of volume per tweet category with suicide cases & calls
+
+```{r, echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("figures/CopingPreventionTweets.png")
+```
+
+* Coping stories: protective association with calls, but are rare
+* Prevention tweets: protective association with cases & calls
+* Suicide cases in general: no association 
+<span style="font-size: 18px"><a href='https://www.doi.org/10.1192/bjp.bp.109.074633'> (confirming Niederkrotenthaler et al. 2020)</span> 
+
+---
+layout:true
+
+---
+
+
+
 # My research vision for Graz
 
+* Systematically explore role of expressed and experienced emotion in association of media content and suicides
+  - Protective: Suicidal ideation, LOGIC song
+  - No effect: Informational Prevention Campaign
 * Influence of emotions and social processes on the spreading of information online
-
 * Developing digital interventions that target socio-emotional mechanisms
 * Foster attention to accurate and protective information & societal cause areas
+
+
+??? 
+Infodemic figure, anxiety figure
 
 ---
 
@@ -255,34 +340,65 @@ background-size: contain
 
 # Teaching Concept
 
-## Introduction to Psychology
+### Teaching at the Interface of Psychology & Computer Science <br> <br> in the Master of Computational Social Systems
 
-#### Master in Computational Social Systems <br> <br>
+### Mag. Dr. Hannah Metzler
 
 
 ---
 
-## Objectives
+## My Approach to Teaching
 
-- Knowledge: Describe the main areas of psychology and their core research topics
-- Application: Design studies using digital technologies or data
-- Critical reflection: 
+**Designed to encourage**
+- Interleaved learning 
+- Active learning: Linking theory & research practice
+- Critical reflection on: 
     - the probabilistic nature of social science findings
-    - the quality of study design and methods
+    - the quality of study design & methods
     - the robustness and strength of scientific evidence
+    => necessity of good research practices
+- Participation
+- Regular feedback to adapt teaching & foster motivation
 
 ???
-Linking theory and practice - application
+Active learning: with regular exercises
+When teaching psychology, critical r particularly necessary
 reflect on the social impact of research?
+Taking the student perspective to ensure motivation
 
 ---
 
-## Teaching activities and syllabus
+# Courses in the CSS Master
+
+* VU: Introduction to Psychology I & II
+    - **Teaching methods and topics**
+
+* SE: Emotional and social influences on digital communication on social media
+    - **Course introduction as example teaching lecture**
+
+* SE: A practical introduction to digital open research in social psychology 
+
+???
+
+focus on good research practices for digital research
+
+---
+
+
+## Example: Introduction to Psychology for Computer Science Students
+
+Teaching activities and syllabus
 
 - Mix of lectures, exercises and interactive sessions
 - Exercises: Investigate psychological research questions using digital technologies/data
 - Group discussion sessions with short presentations
 - Feedback on exercises & presentations
+
+Objective: 
+Knowledge: Describe the main areas of psychology and their core research topics
+
+How? 
+Active application: Design studies using digital technologies or data
 
 ---
 
@@ -297,17 +413,17 @@ knitr::include_graphics("figures/pen.png")
 
 <top>
 .right-column[
-**Designed to encourage...**
-* interleaved learning
-* active participation
-* independent thinking
-* application of psychological theories to digital studies
-
 **Evaluation scheme**
 - Intermediate exam 1 & 2: 40%
 - Final exam: 25%
 - Written exercises: 20%
 - Group presentation & discussions: 15%
+
+**Designed to encourage...**
+* interleaved learning
+* active participation
+* independent thinking
+* application of psychological theories to digital studies
 ]
 
 ???
@@ -321,7 +437,7 @@ class: inverse, center, top, title-slide
 # <!-- background-size: contain -->
 ```
 
-# Introduction to Computational Social Psychology
+# An Introduction to Computational Social Psychology
 
 ```{r, echo=FALSE, out.width=400}
 knitr::include_graphics("figures/communication-network.png")
@@ -329,30 +445,52 @@ knitr::include_graphics("figures/communication-network.png")
 
 ### Teaching Lecture on *Digitial Technologies and Psychology* <br> Hannah Metzler
 
-.pull-left[]
+---
+
+
+# Computational Social Science
+
+<div style="text-align:center"><span style="font-weight: bold; color:#1f5c99">
+Quantitative testing theories from the social sciences at unprecedented
+breadth and depth and scale.</span> 
+<span style="font-size: 22px; font-color: gray"> Lazer et al. Science (2009) </span> </div>
+
+
+* New data sources (e.g. the Web and Social Media)
+
+* New methods (e.g. Machine Learning, Simulation)
+
+* Breadth: quantifying many things at the same time
+
+* Depth: measuring a lot about each person
+
+* Scale: gathering data on many people
+
+<div style="text-align:center; font-weight: bold; color:#1f5c99"> “More is different” (Anderson, 1972) </div>
+
+---
+
+# Computational Social Psychology 
+
+.pull-left[.center-left[
+```{r, echo=FALSE, out.width=950, fig.align='center'}
+knitr::include_graphics("figures/CSSoverview.svg")
+```
+
+]]
+--
 .pull-right[
+### Psychology in the Digital Age
 
+* Behavioral changes: 
+    - online & offline
+* New digital tools for 
+    * teaching & learning
+    * working 
+    * diagnosis & therapy
+* New computational methods
+* New data sources
 ]
-
-
----
-
-# Courses
-.left[
-
-* VU: Introduction to Psychology I & II
-* SE: A practical introduction to digital open research in social psychology 
-* SE: Emotional and social influences on digital communication on social media
-]
-
----
-
-# Psychology in the Digital Age
-
-* Behavioral changes: online & offline
-* New tools for teaching & learning, working, diagnosis & therapy
-* New methods & data sources for research
-
 
 ---
 
@@ -387,23 +525,23 @@ zoom into social media in illustration from previous slide
 
 # Emotions on Social Media
 
-## Methods
-Machine Learning
-Natural Language Processing
-Validity of emotion measures
+### Methods
+* Machine Learning
+* Natural Language Processing
+* Validity of emotion measures
 
-## Online interaction
-Misinformation
-Collective emotions
-Affective polarization
-Outgroup hate
-Racial harrassement
+### Online interaction
+* Misinformation
+* Collective emotions
+* Affective polarization
+* Outgroup hate
+* Racial harrassement
 
-## Mental health
-Emotion regulation
-Social media and wellbeing
-Media effects on suicide
-Depression & Anxiety
+### Mental health
+* Emotion regulation
+* Social media and wellbeing
+* Media effects on suicide
+* Depression & Anxiety
 
 ---
 
