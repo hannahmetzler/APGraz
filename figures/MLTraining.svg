@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   viewBox="0 0 478.15149 393.60065"
+   viewBox="0 0 466.23752 361.1529"
    stroke-miterlimit="10"
    id="svg97"
    sodipodi:docname="MLTraining.svg"
-   width="478.15149"
-   height="393.60065"
+   width="466.23752"
+   height="361.15289"
    style="fill:none;stroke:none;stroke-linecap:square;stroke-miterlimit:10"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
@@ -41,6 +41,17 @@
          x="70.138779"
          y="91.962875" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath58">
+      <rect
+         style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.28661251;stroke-opacity:1"
+         id="rect60"
+         width="466.23752"
+         height="361.15289"
+         x="71.346649"
+         y="96.629631" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -60,8 +71,8 @@
      fit-margin-right="0"
      fit-margin-bottom="0"
      inkscape:zoom="0.82790419"
-     inkscape:cx="545.84856"
-     inkscape:cy="311.11479"
+     inkscape:cx="544.64069"
+     inkscape:cy="339.66472"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -75,9 +86,9 @@
        style="clip-rule:nonzero" />
   </clipPath>
   <g
-     clip-path="url(#clipPath107)"
+     clip-path="url(#clipPath58)"
      id="g95"
-     transform="translate(-70.138779,-91.962875)">
+     transform="translate(-71.346649,-96.629631)">
     <path
        d="M 0,0 H 960 V 540 H 0 Z"
        id="path5"
