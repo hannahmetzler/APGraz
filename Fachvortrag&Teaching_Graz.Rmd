@@ -86,7 +86,6 @@ layout: true
 **Tool**
 
 <br>
-<br>
 **Effects**
 
 <br>
@@ -96,9 +95,10 @@ layout: true
 <br>
 .right-column[
 
-* Sentiment analysis to capture collective emotions during the COVID-19 outbreak
-* Validity of social media emotion macroscopes <br> <br>
-* Effects of social media content on mental health, <br> e.g. suicidal behavior <br> <br>
+* Digital traces of collective emotions during COVID-19
+* Validity of social media emotion & sentiment measures <br> <br>
+* Effects of social media content on mental health
+    - suicidal & help seeking behavior <br> <br>
 * Behavior on social media: <br>
 Misinformation spreading & advocacy for societal causes 
 ]
@@ -169,7 +169,7 @@ layout: true
 
 ---
 
-# Validity of emotion macroscopes
+# Validity of emotion & sentiment measures
 
 .pull-left[.center-left[
 * 2 year period
@@ -179,10 +179,7 @@ layout: true
 
 * Automated text-analysis & Machine Learning
 * Pre-registered hypotheses for prediction period
-
-* Similar results for Austria
 ]]
-
 .pull-right[.center-right[
 ```{r, echo=FALSE, out.width=650, fig.align='right'}
 knitr::include_graphics("figures/Anxiety.svg")
@@ -193,29 +190,14 @@ knitr::include_graphics("figures/Sadness.svg")
 ```
 ]]
 
+* Sentiment analysis in Austria: similar results
+
 ---
 layout: true
 
 ---
 
-# Social Media as a Tool
-
-* Frequent data: daily changes
-* Historical data: data before and during early phase of event
-* Collective emotions: interactions between people
-* Indirect measures: No (emotional) memory or reporting biases 
-Check terms from bit by bit
-
-Advantages: 
-* Cost and efficiency
-* Includes people hard to reach with surveys 
-
-
-
-
----
-
-# Media Effects Research on Suicide
+# Media effects research on suicide
 
 News reporting on suicide influences suicidal behavior in individuals at risk
 
@@ -256,7 +238,7 @@ A Machine Learning approach to media effects research on suicide. Metzler, Bagin
 
 ---
 
-# Machine Learning Classification of Harmful & Protective Content
+# Machine Learning classification of harmful & protective content
 
 .pull-left[
 * Social media content on suicide
@@ -264,12 +246,10 @@ A Machine Learning approach to media effects research on suicide. Metzler, Bagin
 * 14.5 million US tweets 2013-2020
 ]
 --
-
 .pull-right[
 * Scheme: typical content categories
 * Leverage Artificial Intelligence:
 Traditional ML & Deep Learning
-
 ]
 
 --
@@ -291,7 +271,7 @@ layout: true
 
 ---
 
-# Associations with Suicides & Helpline Calls
+# Associations with suicides & helpline calls
 
 Time series analyses of volume per tweet category with suicide cases & calls
 
@@ -309,28 +289,163 @@ layout:true
 
 ---
 
-
-
 # My research vision for Graz
 
-* Systematically explore role of expressed and experienced emotion in association of media content and suicides
-  - Protective: Suicidal ideation, LOGIC song
-  - No effect: Informational Prevention Campaign
-* Influence of emotions and social processes on the spreading of information online
-* Developing digital interventions that target socio-emotional mechanisms
-* Foster attention to accurate and protective information & societal cause areas
+**Investigate the role of emotion on social media** 
+.left-column[
+```{r, echo=FALSE, out.width=70}
+knitr::include_graphics("figures/Papageno_noframe.svg")
+```
+
+```{r, echo=FALSE, out.width=90}
+knitr::include_graphics("figures/corruption-2727571_1280.png")
+```
+
+```{r, echo=FALSE, out.width=80}
+knitr::include_graphics("figures/EA_logo.svg")
+```
+]
+
+.right-column[.center-right[
+
+...for protective and harmful effects on suicide
+
+<br>
+...in spreading of misinformation
+
+<br>
+...in spreading of evidence-based advocacy efforts
+]]
+
+<br><br>
+
+**Develop digital interventions that consider emotions**
 
 
-??? 
-Infodemic figure, anxiety figure
+???
+
+Misinfo: mention WWTF funding and 1 student + research assistant that will work with me in next 3 years 
+
+---
+
+# Emotion & Misinformation Spreading
+
+.left-column[
+```{r, echo=FALSE, out.width=350, fig.align='center'}
+knitr::include_graphics("figures/factchecking.jpeg")
+```
+
+<br> <br> <br> <br> 
+
+```{r, echo=FALSE, out.width=110, fig.align='left'}
+knitr::include_graphics("figures/wwtf_notext.jpg")
+```
+<span style="font-size: 17px">Digital Humanism Grant</span> 
+]
+
+.right-column[
+* Fake news and conspiracies increase during crisis
+* Current interventions focus on accuracy <br><br>
+]
+
+
+```{r, echo=FALSE, out.width=850, fig.align='left'}
+knitr::include_graphics("figures/Emomis.svg")
+```
+
+
+
+---
+
+# Role of emotion in suicide prevention 
+
+* No effect:  Oregon Media Project: Suicide Prevention Campaign
+
+* Protective: 1-800-273-8255 song by Logic
+
+```{r, echo=FALSE, out.width=400, fig.align='center'}
+knitr::include_graphics("figures/sad&info.svg")
+```
+
+.pull-left[
+```{r, echo=FALSE, out.width=500}
+knitr::include_graphics("figures/expressed_experienced.svg")
+```
+]
+
+<div style="font-size:22px"; color:gray; font-style: italic>
+.pull-right[
+* News: Inspector in Philadelphia Collapse Commits Suicide
+* Sometimes, the ONLY thing that kept me from suicide was my dad and my love for myself that i had to find.
+]
+</div>
+
+---
+layout:true
 
 ---
 
 # My collaboration network
 
+
+```{r, echo=FALSE, out.width=1000, fig.align='left'}
+knitr::include_graphics("figures/collaboration.svg")
+```
+
+???
+
+Connect Uni Graz to my national & international collaboration partners, including psychologists, neuroscientists, computer and data scientists
+
+---
+
+
+# Summary: Social Media & Emotions
+<top> 
+.left-column[
+<br>
+**As a tool**
+<br> <br> <br><br> <br> 
+**Effects of media content**
+<br> <br> <br>
+**As an environment**
+]
+
+.right-column[
+* Frequent & historical data
+* Interactions between people: collective emotions
+* Validity as emotion macropscopes
+* Nonintrusive: no memory or reporting biases <br><br>
+* Emotional connotation & response crucial <br>for suicide prevention
+* Machine Learning for large-scale analyses <br><br>
+* Information spreading
+* Emotional algorithms
+]
+ </top>
+
 ---
 
 # Thank you!
+
+<br>
+
+For more on my research: https://hannahmetzler.eu
+
+For data and code: https://github.com/hannahmetzler
+
+<br><br>
+
+```{r, echo=FALSE, out.width=220}
+knitr::include_graphics("figures/csh.png")
+```
+```{r, echo=FALSE, out.width=220}
+knitr::include_graphics("figures/Meduni-wien.svg")
+```
+```{r, echo=FALSE, out.width=300}
+knitr::include_graphics("figures/wwtf.svg")
+```
+```{r, echo=FALSE, out.width=260}
+knitr::include_graphics("figures/vibrant.svg")
+```
 
 
 ---
@@ -347,34 +462,69 @@ background-size: contain
 
 ---
 
-## My Approach to Teaching
+## Teaching philosophy & approach
 
-**Designed to encourage**
-- Interleaved learning 
-- Active learning: Linking theory & research practice
-- Critical reflection on: 
-    - the probabilistic nature of social science findings
-    - the quality of study design & methods
-    - the robustness and strength of scientific evidence
-    => necessity of good research practices
-- Participation
-- Regular feedback to adapt teaching & foster motivation
+.pull-left[.center-left[
+- Active & goal-oriented learning
+
+- Linking theory & research practice
+
+- Critical thinking: 
+    - probabilistic nature & robustness of evidence 
+    - study design & methods 
+    - good research practices
+    
+- Encourage participation
+
+- Regular feedback: growth mindset
+]]
+
+.pull-right[.center-right[
+```{r, echo=FALSE, out.width=120}
+knitr::include_graphics("figures/communication-network.png")
+knitr::include_graphics("figures/logo-rond-twitter.svg")
+```
+```{r, echo=FALSE, out.width=80}
+knitr::include_graphics("figures/Facebook_f_logo_(2019).svg")
+```
+```{r, echo=FALSE, out.width=75}
+knitr::include_graphics("figures/reddit.png")
+```
+
+<br>
+
+```{r, echo=FALSE, out.width=100}
+knitr::include_graphics("figures/bayesian-2889576_1280.png")
+```
+```{r, echo=FALSE, out.width=150}
+knitr::include_graphics("figures/osf.svg")
+knitr::include_graphics("figures/GitHub-Logo.svg")
+```
+
+<br>
+```{r, echo=FALSE, out.width=150, fig.align='center'}
+knitr::include_graphics("figures/participate.svg")
+```
+]]
+
 
 ???
-Active learning: with regular exercises
-When teaching psychology, critical r particularly necessary
+Active learning: exerices applying theory to practice
+When teaching psychology, critical reflection particularly necessary
 reflect on the social impact of research?
 Taking the student perspective to ensure motivation
+Regular feedback for students: interleaved learning/repeated exams
+Groth mindset for me and students: adapt teaching and foster motivation
 
 ---
 
 # Courses in the CSS Master
 
 * VU: Introduction to Psychology I & II
-    - **Teaching methods and topics**
+    - **Teaching activities and syllabus**
 
 * SE: Emotional and social influences on digital communication on social media
-    - **Course introduction as example teaching lecture**
+    - **Introduction to Computational Social Psychology as teaching lecture**
 
 * SE: A practical introduction to digital open research in social psychology 
 
@@ -384,50 +534,114 @@ focus on good research practices for digital research
 
 ---
 
+# Introduction to Psychology I & II
 
-## Example: Introduction to Psychology for Computer Science Students
-
-Teaching activities and syllabus
-
-- Mix of lectures, exercises and interactive sessions
-- Exercises: Investigate psychological research questions using digital technologies/data
-- Group discussion sessions with short presentations
-- Feedback on exercises & presentations
-
-Objective: 
-Knowledge: Describe the main areas of psychology and their core research topics
-
-How? 
-Active application: Design studies using digital technologies or data
-
----
-
-## Evaluation
-<top>
+1. Lectures on core areas of psychology
+2. Exercises: Study idea on a lecture topic with digital tools/data
+3. Interactive sessions with short presentations
+    - Feedback on exercises & presentations
 
 .left-column[
-```{r, echo=FALSE, out.width=200}
+```{r, echo=FALSE, out.width=180}
 knitr::include_graphics("figures/pen.png")
 ```
 ]
-
-<top>
 .right-column[
 **Evaluation scheme**
-- Intermediate exam 1 & 2: 40%
+- Intermediate exam 1 & 2: 35%
 - Final exam: 25%
 - Written exercises: 20%
-- Group presentation & discussions: 15%
+- Group presentation & discussions: 20%
 
-**Designed to encourage...**
+]
+
+???
+
+8 lectures, 4-5 interactive sessions
+Knowledge: Describe the main areas of psychology and their core research topics
+Exercise as homework: link theory/research practice, active learning: How would you investigate one of the topics from the previous session with CSS methods, digital data or on digital platforms? Describe a research question and method for a study in 250-500 words (on Moodle)
+Interactive session: 6 students present their idea in 5 minutes (no slides necessary) + 10 min discussion 
+
+Evaluation Designed to encourage
 * interleaved learning
 * active participation
 * independent thinking
 * application of psychological theories to digital studies
-]
+an interleaved curriculum works on the basis that different topics are woven together, switched between and revisited at intervals throughout the year.
+
+
+---
+
+# Syllabus
+
+.pull-left[.center-left[
+**I) History, Biology, Cognition, Development**
+- Introduction & history
+- Biological & neural processes
+- Attention & perception
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+``` 
+- Learning & memory
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+```
+- Cognitive biases & decision making
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+```
+- Language, thought & intelligence
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+```
+- Development
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+```
+]]
+
+.pull-right[.center-right[
+**II) Methods, Personality, Social, Gender, Clinical & Health**
+- Social Science Methods
+- Reproducibility & Open Science
+- Personality & Interindividual Differences 
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+```
+- Social Psychology 1 & 2
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+```
+- Emotion & Motivation
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+```
+- Gender & Sexual Behavior
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+```
+- Clinical & Health Psychology
+```{r, echo=FALSE, out.width=30}
+knitr::include_graphics("figures/write.svg")
+knitr::include_graphics("figures/speech-bubbles-orange.png")
+```
+]]
 
 ???
-an interleaved curriculum works on the basis that different topics are woven together, switched between and revisited at intervals throughout the year.
+Attention SENSATION and perception
+Methods: (Design, statistics (NHST, Bayesian)
+Social psych:
+1) (Social Cognition, Perception, Attitudes, Self-understanding, Persuasion), 
+2) (Relationships and attraction, Group processes, conformity, prosocial behavior & cooperation, aggression, prejudice, stereotyping, discrimination …)
 
 ---
 class: inverse, center, top, title-slide
@@ -448,7 +662,7 @@ knitr::include_graphics("figures/communication-network.png")
 ---
 
 
-# Computational Social Science
+# Computational Social Science (CSS)
 
 <div style="text-align:center"><span style="font-weight: bold; color:#1f5c99">
 Quantitative testing theories from the social sciences at unprecedented
@@ -470,17 +684,17 @@ breadth and depth and scale.</span>
 
 ---
 
-# Computational Social Psychology 
+# Interdisciplinarity in CSS 
 
 .pull-left[.center-left[
-```{r, echo=FALSE, out.width=950, fig.align='center'}
+```{r, echo=FALSE, out.width=950}
 knitr::include_graphics("figures/CSSoverview.svg")
 ```
 
 ]]
 --
 .pull-right[
-### Psychology in the Digital Age
+### Psychology in the digital age
 
 * Behavioral changes: 
     - online & offline
@@ -494,7 +708,139 @@ knitr::include_graphics("figures/CSSoverview.svg")
 
 ---
 
-# Digital Technologies and Psychology
+# Computational Social Psychology 
+
+### Core topics & course overview
+
+.pull-left[.center-left[
+
+**Social media data analysis**
+* Natural Language Processing
+* Machine Learning
+* Validity of emotion measures 
+
+**Emotions & social media**
+* Emotion regulation
+* Social media and wellbeing
+* Media effects on suicide
+* Depression & Anxiety
+]]
+
+--
+
+.pull-right[.center-right[
+**Interaction on social media**
+* Misinformation
+* Collective emotions
+* Polarization
+* Outgroup hate
+* Racial harrassement
+]]
+--
+**=>Machine Learning** <br>
+
+**=>Polarization**
+
+---
+
+# Machine Learning for text analysis
+
+.pull-left[.center-left[
+**Preprocessing** 
+* Lower-casing
+* Remove punctuation
+* Stemming
+* Lemmatization
+* Replace URLs & users
+* Tokens
+]]
+.pull-right[.center-right[
+**Text representations**
+* Word frequencies
+    * Bag of words
+    * Term Frequency-Inverse Document Frequency
+* Word embeddings
+]]
+  
+  
+???
+TF-IDF: Special weight to words that distinguish this type of text
+---
+
+# Types of models
+
+* Linear regression
+* Support-Vector-Machines
+* Random Forest
+...
+
+---
+
+## Neural networks = Deep learning
+
+* Learn sentence structure and semantics from large text corpora
+
+* Transfer learning: Retrain state-of-the art language models for specific tasks
+
+* BERT: Masked word prediction & next sentence prediction <span style="font-size: 22px; font-color: gray"> Devlin et al. (2019) </span> 
+    * “New **[MASK]** is a city” 
+    * 15% of words masked: “[MASK] **[MASK]** is a city, in which ...”
+    
+* XLNET: Permutations of all words used to predict masked word <span style="font-size: 22px; font-color: gray"> Yang et al. (2019) </span> 
+
+---
+
+# Model training & evaluation
+
+```{r, echo=FALSE, out.width=600}
+knitr::include_graphics("figures/MLTraining.svg")
+```
+
+---
+
+# Evaluation metrics 
+
+* **Accuracy**: How many are correct?
+
+* **Precision**: 
+    * How many of the “positive” predictions are correct? 
+    * How many predicted angry tweets are actually angry?
+    
+* **Recall**: 
+    * How many of all the “true” instances does the model detec? 
+    * How many of the actually angry tweets?
+    
+* **F1-Score**: weighted balance of P & R
+
+---
+
+# A field experiment on polarization
+
+.pull-left[
+* Differences between groups becoming more extreme
+
+* Echo chambers on social media? 
+]
+--
+.pull-right[
+```{r, echo=FALSE, out.width=600}
+knitr::include_graphics("figures/bail_design.svg")
+```
+]
+---
+
+# Backfire effect
+
+```{r, echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("figures/bail_results.svg")
+```
+
+
+???
+
+Material for other slides: 
+
+Digital Technologies and Psychology
 
 **Social Media**
 E-Therapy
@@ -512,41 +858,16 @@ Experience Sampling
 ???
 vent-diagram
 
----
-
-# Topics in Computational Social Psychology
+Next slide: 
+Topics in Computational Social Psychology
 
 Topics: misinformation, hate speech, cyber-bullying, polarization, social interaction, social contagion, problematic and positive use of technology, additive behavior, mental health,  telework
 
 ???
 zoom into social media in illustration from previous slide
 
----
 
-# Emotions on Social Media
-
-### Methods
-* Machine Learning
-* Natural Language Processing
-* Validity of emotion measures
-
-### Online interaction
-* Misinformation
-* Collective emotions
-* Affective polarization
-* Outgroup hate
-* Racial harrassement
-
-### Mental health
-* Emotion regulation
-* Social media and wellbeing
-* Media effects on suicide
-* Depression & Anxiety
-
----
-
-???
-Slide on types of digital research?
+Slide on types of digital research:
 1) Observation
 * Online data: behavior in digital environments
 * Digital data created by devices in the physical world (supermarkets, phones)
