@@ -40,9 +40,10 @@ background-image: url(figures/brain.png)
 background-size: contain
 
 # The Role of Emotions in Digital Communication
-## Research lecture for the Assistant Professor Position on *Digital Technologies and Psychology*
+### Research lecture for the Assistant Professor Position on <br> *Digital Technologies and Psychology*
 ### Mag. Dr. Hannah Metzler
 ### 09.09.2021 - University of Graz
+#### Slides: www.hannahmetzler.eu/APGraz
 
 ---
 layout: true
@@ -54,18 +55,11 @@ layout: true
 
 ---
 
+# Slide about myself
+
+---
+
 # Emotions in non-verbal social interaction
-
-.left-column[
-<br>
-
-Emotions
-- attract attention
-
-- direct attention & behavior
-
-]
-
 
 .right-column[.center-right[
 ```{r, echo=FALSE, out.width=700}
@@ -73,38 +67,53 @@ knitr::include_graphics("figures/nonverbal.jpg")
 ```
 ]]
 
+--
+
+.left-column[
+**Emotions**
+- attract & direct attention
+
+- affect behavior
+
+<br>
+
+Open Science!
+]
+
+
 ---
 layout: true
 
 ---
 
-# Emotions in digital communication
+# Computational approach to emotions
 
 .left-column[
 **Social media...**
 
-**Tool**
+**Data source**
 
 <br>
 **Effects**
 
 <br>
-**Environment**
+**System**
 ]
 --
 <br>
 .right-column[
 
-* Digital traces of collective emotions during COVID-19
+* Digital traces of collective emotions
 * Validity of social media emotion & sentiment measures <br> <br>
-* Effects of social media content on mental health
-    - suicidal & help seeking behavior <br> <br>
-* Behavior on social media: <br>
-Misinformation spreading & advocacy for societal causes 
+* Using Machine learning to study effects of social media content on mental health <br> <br>
+* Behavior in social media environments: <br>
+Spreading of false and accurate information 
 ]
 
 
 ???
+Make boxes around each of these
+mention the word complexity, link to collibri in Graz
 tool that allows measuring things that we could not measure otherwise
 Macroscopes: emotion measures at the level of populations
 
@@ -197,98 +206,6 @@ layout: true
 
 ---
 
-# Media effects research on suicide
-
-News reporting on suicide influences suicidal behavior in individuals at risk
-
-.pull-left[.center-left[
-```{r, echo=FALSE, out.width=250, fig.align='center'}
-knitr::include_graphics("figures/Werther.png")
-```
-
-<div style="text-align:center">
-Reports on suicide deaths: <br>
-<span style="font-weight: bold; color:#1f5c99"> Werther</span> effect <br>
-<font size="4">
-<a href='https://www.bmj.com/content/368/bmj.m575'> Meta-analysis: Niederkrotenthaler et al. 2020 </a>
-</font> </div>
-
-]]
-
-.pull-right[.center-right[
-
-```{r, echo=FALSE, out.width=200, fig.align='center'}
-knitr::include_graphics("figures/Papageno.png")
-```
-
-<div style="text-align:center">
-Stories of hope & coping: <br> 
-<span style="font-weight: bold; color:#1f5c99"> Papageno</span> effect  <br> 
-<font size="4">
-<a href='https://www.doi.org/10.1192/bjp.bp.109.074633'> (e.g. ) Niederkrotenthaler et al. 2010 </a>
-</font> </div>
-]]
-
-<div style="text-align:center; font-weight: bold; color:#1f5c99"> Content and language matter </div>
-
----
-layout: true
-<div class="my-footer"><span> 
-A Machine Learning approach to media effects research on suicide. Metzler, Baginski, Niederkrotenthaler & Garcia (in prep.) </span></div>
-
----
-
-# Machine Learning classification of harmful & protective content
-
-.pull-left[
-* Social media content on suicide
-* Big data for robust results
-* 14.5 million US tweets 2013-2020
-]
---
-.pull-right[
-* Scheme: typical content categories
-* Leverage Artificial Intelligence:
-Traditional ML & Deep Learning
-]
-
---
-```{r, echo=FALSE, out.width=1000, fig.align='center'}
-knitr::include_graphics("figures/MLresults_per_category.svg")
-```
-
-
-???
-Social media: young adults and new content types, but few studies
-Small datasets with manual labelling: Big data
-Best performance with BERT
-Different metrics related to how many false positives and false negative errors the model makes, that I will explain more in the teaching lecture
-
----
-layout: true
-<div class="my-footer"><span> 
- Niederkrotenthaler, Tran, Baginski,..., & Metzler (in prep.) </span></div>
-
----
-
-# Associations with suicides & helpline calls
-
-Time series analyses of volume per tweet category with suicide cases & calls
-
-```{r, echo=FALSE, out.width=900, fig.align='center'}
-knitr::include_graphics("figures/CopingPreventionTweets.png")
-```
-
-* Coping stories: protective association with calls, but are rare
-* Prevention tweets: protective association with cases & calls
-* Suicide cases in general: no association 
-<span style="font-size: 18px"><a href='https://www.doi.org/10.1192/bjp.bp.109.074633'> (confirming Niederkrotenthaler et al. 2020)</span> 
-
----
-layout:true
-
----
-
 # My research vision for Graz
 
 **Investigate the role of emotion on social media** 
@@ -326,34 +243,107 @@ knitr::include_graphics("figures/EA_logo.svg")
 
 Misinfo: mention WWTF funding and 1 student + research assistant that will work with me in next 3 years 
 
+put last 2 points together as information spreading: protection + information spreading
+pictures larger
+make slide about EA for questions
+
 ---
 
-# Emotion & Misinformation Spreading
+# Media effects research on suicide
 
-.left-column[
-```{r, echo=FALSE, out.width=350, fig.align='center'}
-knitr::include_graphics("figures/factchecking.jpeg")
+News reporting on suicide influences suicidal behavior in individuals at risk
+
+.pull-left[.center-left[
+```{r, echo=FALSE, out.width=250, fig.align='center'}
+knitr::include_graphics("figures/Werther.png")
 ```
 
-<br> <br> <br> <br> 
+<div style="text-align:center">
+Reports on suicide deaths: <br>
+<span style="font-weight: bold; color:#1f5c99"> Werther</span> effect <br>
+<font size="4">
+<a href='https://www.bmj.com/content/368/bmj.m575'> Meta-analysis: Niederkrotenthaler et al. 2020 </a>
+</font> </div>
 
-```{r, echo=FALSE, out.width=110, fig.align='left'}
-knitr::include_graphics("figures/wwtf_notext.jpg")
+]]
+
+.pull-right[.center-right[
+
+```{r, echo=FALSE, out.width=200, fig.align='center'}
+knitr::include_graphics("figures/Papageno.png")
 ```
-<span style="font-size: 17px">Digital Humanism Grant</span> 
+
+<div style="text-align:center">
+Stories of hope & coping: <br> 
+<span style="font-weight: bold; color:#1f5c99"> Papageno</span> effect  <br> 
+<font size="4">
+<a href='https://www.doi.org/10.1192/bjp.bp.109.074633'> (e.g. ) Niederkrotenthaler et al. 2010 </a>
+</font> </div>
+]]
+
+<div style="text-align:center; font-weight: bold; color:#1f5c99"> Content, language & emotional connotation matter </div>
+
+---
+layout: true
+<div class="my-footer"><span> 
+A Machine Learning approach to media effects research on suicide. Metzler, Baginski, Niederkrotenthaler & Garcia (in prep.) </span></div>
+
+---
+
+# Machine Learning classification of harmful & protective content
+
+.pull-left[
+* Social media content on suicide
+* Big data for robust results
+* 14.5 million US tweets 2013-2020
+]
+--
+.pull-right[
+* Scheme: typical content categories
+* Artificial Intelligence: <br>
+Traditional ML & Deep Learning
 ]
 
-.right-column[
-* Fake news and conspiracies increase during crisis
-* Current interventions focus on accuracy <br><br>
-]
-
-
-```{r, echo=FALSE, out.width=850, fig.align='left'}
-knitr::include_graphics("figures/Emomis.svg")
+--
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("figures/MLresults_per_category.svg")
 ```
 
 
+???
+Social media: young adults and new content types, but few studies
+Small datasets with manual labelling: Big data
+Best performance with BERT
+Different metrics related to how many false positives and false negative errors the model makes, that I will explain more in the teaching lecture
+
+---
+layout: true
+<div class="my-footer"><span> 
+ Niederkrotenthaler, Tran, Baginski,..., & Metzler (in prep.) </span></div>
+
+---
+
+# Associations with suicides & helpline calls
+
+Time series analyses of volume per tweet category with suicide cases & calls
+
+```{r, echo=FALSE, out.width=900, fig.align='center'}
+knitr::include_graphics("figures/CopingPreventionTweets.png")
+```
+
+* Suicide cases in general: no association 
+<span style="font-size: 18px"><a href='https://www.doi.org/10.1192/bjp.bp.109.074633'> (confirming Niederkrotenthaler et al. 2020)</span> 
+* Coping stories: protective association with calls, but are rare
+* Prevention tweets: protective association with cases & calls
+
+
+???
+
+what are we measuring: daily tweets, suicides, and calls to the helpline
+we are measuring time series of tweets - in picture
+
+---
+layout:true
 
 ---
 
@@ -385,6 +375,38 @@ layout:true
 
 ---
 
+# Emotion & misinformation spreading
+
+.left-column[
+```{r, echo=FALSE, out.width=350, fig.align='center'}
+knitr::include_graphics("figures/factchecking.jpeg")
+```
+
+<br> <br> <br> 
+
+```{r, echo=FALSE, out.width=110, fig.align='left'}
+knitr::include_graphics("figures/wwtf_notext.jpg")
+```
+<span style="font-size: 25px">PI of Digital Humanism project, 400k </span> 
+]
+
+.right-column[
+* Current interventions focus on accuracy <br><br>
+* Fake news and conspiracies increase during crisis 
+]
+
+
+```{r, echo=FALSE, out.width=850, fig.align='left'}
+knitr::include_graphics("figures/Emomis.svg")
+```
+
+???
+
+Mention here that this project gives me the resources for 2 PhD students + 1 assistant
+
+
+---
+
 # My collaboration network
 
 
@@ -396,18 +418,22 @@ knitr::include_graphics("figures/collaboration.svg")
 
 Connect Uni Graz to my national & international collaboration partners, including psychologists, neuroscientists, computer and data scientists
 
+These are excellent opportunities to apply to research grants
+ERC grant, start grant
+
+
 ---
 
 
-# Summary: Social Media & Emotions
-<top> 
+# Summary: Social media & emotions
+<top>
 .left-column[
 <br>
-**As a tool**
+**Data Source**
 <br> <br> <br><br> <br> 
 **Effects of media content**
 <br> <br> <br>
-**As an environment**
+**System**
 ]
 
 .right-column[
@@ -416,9 +442,9 @@ Connect Uni Graz to my national & international collaboration partners, includin
 * Validity as emotion macropscopes
 * Nonintrusive: no memory or reporting biases <br><br>
 * Emotional connotation & response crucial <br>for suicide prevention
-* Machine Learning for large-scale analyses <br><br>
-* Information spreading
-* Emotional algorithms
+* Machine Learning for robust large-scale analysis <br><br>
+* Information spreading: fake news & protective information
+* Model spreading & interventions in social networking platforms
 ]
  </top>
 
@@ -458,6 +484,7 @@ background-size: contain
 ### Teaching at the Interface of Psychology & Computer Science <br> <br> in the Master of Computational Social Systems
 
 ### Mag. Dr. Hannah Metzler
+#### Slides: www.hannahmetzler.eu/APGraz
 
 
 ---
@@ -516,6 +543,11 @@ Taking the student perspective to ensure motivation
 Regular feedback for students: interleaved learning/repeated exams
 Groth mindset for me and students: adapt teaching and foster motivation
 
+Empirically informed as psychologist
+I have been working with CS students, they need to be goal oriented, experience in mentoring at the Data Science master
+In psych, important to translate to practice
+
+
 ---
 
 # Courses in the CSS Master
@@ -527,6 +559,8 @@ Groth mindset for me and students: adapt teaching and foster motivation
     - **Introduction to Computational Social Psychology as teaching lecture**
 
 * SE: A practical introduction to digital open research in social psychology 
+    * Good scientific practices
+    * Github, 
 
 ???
 
@@ -534,7 +568,7 @@ focus on good research practices for digital research
 
 ---
 
-# Introduction to Psychology I & II
+# Introduction to psychology I & II
 
 1. Lectures on core areas of psychology
 2. Exercises: Study idea on a lecture topic with digital tools/data
@@ -569,6 +603,9 @@ Evaluation Designed to encourage
 * application of psychological theories to digital studies
 an interleaved curriculum works on the basis that different topics are woven together, switched between and revisited at intervals throughout the year.
 
+
+This translates to online teaching very well, I have experience supervising students online.
+Book: Cognitive Psychology, mention the word cognitive psychology approach, cognitive psychology standpoint
 
 ---
 
@@ -651,13 +688,30 @@ class: inverse, center, top, title-slide
 # <!-- background-size: contain -->
 ```
 
+# Courses in the CSS Master
+
+* VU: Introduction to Psychology I & II
+    - Teaching activities and syllabus
+
+* SE: Emotional and social influences on digital communication on social media
+    - **Introduction to Computational Social Psychology as teaching lecture**
+
+* SE: A practical introduction to digital open research in social psychology 
+
+---
+
 # An Introduction to Computational Social Psychology
 
 ```{r, echo=FALSE, out.width=400}
 knitr::include_graphics("figures/communication-network.png")
 ```
 
-### Teaching Lecture on *Digitial Technologies and Psychology* <br> Hannah Metzler
+### Teaching Lecture on *Digital Technologies and Psychology* <br> Hannah Metzler
+
+
+??? 
+Make start very clear: Dear Students...
+Make clear I know about who students are
 
 ---
 
@@ -690,7 +744,6 @@ breadth and depth and scale.</span>
 ```{r, echo=FALSE, out.width=950}
 knitr::include_graphics("figures/CSSoverview.svg")
 ```
-
 ]]
 --
 .pull-right[
@@ -733,19 +786,48 @@ knitr::include_graphics("figures/CSSoverview.svg")
 * Misinformation
 * Collective emotions
 * Polarization
-* Outgroup hate
-* Racial harrassement
+* Hate speech
+* Reducing racial harrassement
 ]]
 --
-**=>Machine Learning** <br>
-
-**=>Polarization**
+**=>Machine Learning & <br> example application**
 
 ---
 
 # Machine Learning for text analysis
 
 .pull-left[.center-left[
+**Text representations**
+* Word frequencies
+    * Bag of words
+    * Term Frequency-Inverse Document Frequency
+    
+* Word embeddings
+```{r, echo=FALSE, out.width=500}
+knitr::include_graphics("figures/wordembeddings.svg")
+```
+]]
+
+--
+.pull-right[.center-right[
+**Classification algorithms**
+
+Map representations to categories
+
+* Regressions
+* Support-Vector-Machines
+* Random Forests
+* Neural networks
+]]
+
+
+
+  
+  
+???
+TF-IDF: Special weight to words that distinguish this type of text
+Random Forest: decision tree tries to split by the variable that maximally separates groups in terms of variance, then the next variable with max variance. Multiple trees run on random bootstrapped subsets of data, with random set of variables and data points. Not dependent on any specific variable. 
+
 **Preprocessing** 
 * Lower-casing
 * Remove punctuation
@@ -753,39 +835,39 @@ knitr::include_graphics("figures/CSSoverview.svg")
 * Lemmatization
 * Replace URLs & users
 * Tokens
-]]
-.pull-right[.center-right[
-**Text representations**
-* Word frequencies
-    * Bag of words
-    * Term Frequency-Inverse Document Frequency
-* Word embeddings
-]]
-  
-  
-???
-TF-IDF: Special weight to words that distinguish this type of text
----
-
-# Types of models
-
-* Linear regression
-* Support-Vector-Machines
-* Random Forest
-...
 
 ---
 
-## Neural networks = Deep learning
+# Neural networks = Deep learning
 
+
+.pull-left[
 * Learn sentence structure and semantics from large text corpora
 
-* Transfer learning: Retrain state-of-the art language models for specific tasks
-
-* BERT: Masked word prediction & next sentence prediction <span style="font-size: 22px; font-color: gray"> Devlin et al. (2019) </span> 
+* BERT: Masked word prediction <span style="font-size: 22px; font-color: gray"> <br> Devlin et al. (2019) </span> 
+    * 12 layers
     * “New **[MASK]** is a city” 
+
+* Input layer: Quantitative representation of sentence
+* Output layer: One-hot encoding
+
+]
+
+.pull-right[
+```{r, echo=FALSE, out.width=450}
+knitr::include_graphics("figures/neuralnet.svg")
+```
+
+]
+
+???
+Potato example
+One hot encoding: input layer has as many words as there are in the sentence, mention that output layer is probabilities
+Input: one-hot times embedding, everything but the mask
+
+output has as many units as words in the dictionary, one has a maximum value which is the one we predict
+
     * 15% of words masked: “[MASK] **[MASK]** is a city, in which ...”
-    
 * XLNET: Permutations of all words used to predict masked word <span style="font-size: 22px; font-color: gray"> Yang et al. (2019) </span> 
 
 ---
@@ -800,40 +882,111 @@ knitr::include_graphics("figures/MLTraining.svg")
 
 # Evaluation metrics 
 
-* **Accuracy**: How many are correct?
+.left-column[
+```{r, echo=FALSE, out.width=300}
+knitr::include_graphics("figures/metrics.svg")
+```
+]
+.right-column[.center-right[
+* **Accuracy**: Proportion of correct predictions
 
 * **Precision**: 
     * How many of the “positive” predictions are correct? 
     * How many predicted angry tweets are actually angry?
     
 * **Recall**: 
-    * How many of all the “true” instances does the model detec? 
-    * How many of the actually angry tweets?
+    * How many of “true” instances does the model get? 
+    * How many of the actually angry tweets does it get?
     
-* **F1-Score**: weighted balance of P & R
+* **F1-Score**: weighted balance of precision & recall
+]]
+
+
+???
+Explain the plot
+Add equation for precision and recall
+harmonic mean
+Numerator and denominator
+
 
 ---
 
-# A field experiment on polarization
+layout:true
+<div class="my-footer"><span>
+<a href="https://www.pnas.org/content/115/37/9216">Exposure to opposing views on social media can increase political polarization. Bail et al. (2018) PNAS </a></span></div>
 
-.pull-left[
-* Differences between groups becoming more extreme
 
-* Echo chambers on social media? 
-]
+---
+
+# Machine Learning for Suicide Prevention
+
+Critical thinking: accuracy majority class would just predict irrelevant, this is why we need precision and recall
+
+???
+
+# A field experiment on political polarization
+
+.pull-left[.center-left[
+* Group differences more extreme & aligend with group identity
+<br> <br>
+* Echo chambers on social media ?
+<br><br>
+* Innovative methods: Surveys, bot technology & digital trace data <br><br>
+  * Virtual inter-group contact
+  * Motivated reasoning, backfiring? 
+<br><br>
+* Frequent Twitter users from the US
+]]
+
 --
-.pull-right[
+
+.pull-right[.center-right[
 ```{r, echo=FALSE, out.width=600}
 knitr::include_graphics("figures/bail_design.svg")
 ```
-]
+]]
+
+
+???
+
+Treatment: follow bot for 1 month, retweets 24 messages/day of opposing political ideology (politicians, opinion leaders, media, ngos)
+
+Motivated reasoning: strengthen inital belief if exposed to statements that defend the opposite
+
+Survey:  change in political ideology, statements about policy issues, Twitter ID
+Weekly: compliance test, questions about retweeted content
 ---
 
-# Backfire effect
+# Increased polarization: Backfire effect
 
-```{r, echo=FALSE, out.width=900, fig.align='center'}
+* Repeated contact between groups on social media over extended period
+
+```{r, echo=FALSE, out.width=900}
 knitr::include_graphics("figures/bail_results.svg")
 ```
+* Stronger backfire effect in conservatives: certainy & tradition
+* Exposure to opposing views may be counter-productive
+
+---
+layout:true
+
+---
+
+# Summary
+
+* CSS as highly interdisciplinary field
+
+* Digital technologies: New opportunities for psychological research
+
+* Basics in Machine Learning for text analysis
+
+* New important insights through combining <br> **digital trace data** + psychological **experiments**
+
+<br>
+
+# Thank you for your attention!
+
+
 
 
 ???
@@ -883,3 +1036,11 @@ Slide on types of digital research:
 
 4) Mass collaboration
 
+
+
+
+
+Questions: 
+sentences about difference to David
+syntergy in methods, but focus really different. Not a psychologist. 
+Comp
