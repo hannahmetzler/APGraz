@@ -87,27 +87,11 @@ layout: true
 # Computational approach to emotions
 
 ### Social media...
-.left-column[
-<br>
-**Data source**
-
-<br>
-**Effects**
-
-<br>
-**System**]
---
-.right-column[
-* Digital traces of collective emotions
-* Validity of emotion & sentiment measures <br> <br>
-* Using Machine learning to study effects of social media content on mental health <br> <br>
-* Behavior in social media environments: <br>
-Spreading of false and accurate information 
-]
-
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("figures/framework.svg")
+```
 
 ???
-Make boxes around each of these
 mention the word complexity, link to collibri in Graz
 tool that allows measuring things that we could not measure otherwise
 Macroscopes: emotion measures at the level of populations
@@ -117,24 +101,9 @@ Macroscopes: emotion measures at the level of populations
 # Computational approach to emotions
 
 ### Social media as a data source
-.left-column[
-<br>
-**Data source**
-
-<br>
-Effects
-
-<br>
-System]
-
-.right-column[
-* **Digital traces of collective emotions**
-* **Validity of emotion & sentiment measures** <br> <br>
-* Using Machine learning to study effects of social media content on mental health <br> <br>
-* Behavior in social media environments: <br>
-Spreading of false and accurate information 
-]
-
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("figures/framework_datasource.svg")
+```
 
 ---
 layout: true
@@ -296,23 +265,9 @@ Stories of hope & coping: <br>
 # Computational approach to emotions
 ### Effects of social media
 
-.left-column[
-<br>
-Data source
-
-<br>
-**Effects**
-
-<br>
-System]
-
-.right-column[.center-right[
-* Digital traces of collective emotions
-* Validity of emotion & sentiment measures <br> <br>
-* **Using Machine learning to study effects of social media content on mental health** <br> <br>
-* Behavior in social media environments: <br>
-Spreading of false and accurate information 
-]]
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("figures/framework_effects.svg")
+```
 
 ---
 layout: true
@@ -402,24 +357,9 @@ layout:true
 
 # Computational approach to emotions
 ### Social media as a system
-
-.left-column[
-<br>
-Data source
-
-<br>
-Effects
-
-<br>
-**System**]
-
-.right-column[.center-right[
-* Digital traces of collective emotions
-* Validity of emotion & sentiment measures <br> <br>
-* Using Machine learning to study effects of social media content on mental health** <br> <br>
-* **Behavior in social media environments: <br>
-Spreading of false and accurate information** 
-]]
+```{r, echo=FALSE, out.width=1000, fig.align='center'}
+knitr::include_graphics("figures/framework_system.svg")
+```
 
 ---
 # Emotional misinformation spreading
