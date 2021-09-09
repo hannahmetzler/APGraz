@@ -169,10 +169,9 @@ layout: true
 # Validity of emotion & sentiment measures
 
 .pull-left[.center-left[
-* 2 year period
-
 * UK Twitter data
 * YouGov: Weekly representative UK emotion survey
+* 2 year period
 
 * Automated text-analysis & Machine Learning
 * Pre-registered hypotheses for prediction period
@@ -422,8 +421,8 @@ These are excellent opportunities to apply to research grants
 ]
 
 .right-column[
-* Frequent & historical data
 * Interactions between people: collective emotions
+* Frequent & historical data
 * Validity as emotion macropscopes
 * Nonintrusive: no memory or reporting biases <br><br>
 * Emotional connotation & response crucial <br>for suicide prevention
@@ -442,7 +441,9 @@ For more on my research: https://hannahmetzler.eu
 
 For data and code: https://github.com/hannahmetzler
 
-<br><br>
+Slides: https://hannahmetzler.eu/APGraz/
+
+<br>
 
 ```{r, echo=FALSE, out.width=220}
 knitr::include_graphics("figures/csh.png")
