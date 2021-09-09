@@ -157,7 +157,7 @@ Effects
 
 <br>
 System]
---
+
 .right-column[
 * **Digital traces of collective emotions**
 * **Validity of emotion & sentiment measures** <br> <br>
@@ -286,15 +286,6 @@ attention for evidence-based advocacy
 <br>
 Develop **digital interventions** that consider emotions
 
-
-???
-
-Misinfo: mention WWTF funding and 1 student + research assistant that will work with me in next 3 years 
-
-put last 2 points together as information spreading: protection + information spreading
-pictures larger
-make slide about EA for questions
-
 ---
 
 # Media effects research on suicide
@@ -383,8 +374,7 @@ knitr::include_graphics("figures/MLresults_per_category.svg")
 ???
 Social media: young adults and new content types, but few studies
 Small datasets with manual labelling: Big data
-Best performance with BERT
-Different metrics related to how many false positives and false negative errors the model makes, that I will explain more in the teaching lecture
+Best performance with BERTp
 
 ---
 layout: true
@@ -396,7 +386,6 @@ layout: true
 # Associations with suicides & helpline calls
 
 * Daily volume of tweets per category: Time series in the US
-
 ```{r, echo=FALSE, out.width=850, fig.align='left'}
 knitr::include_graphics("figures/CopingPreventionTweets.png")
 ```
@@ -591,7 +580,7 @@ knitr::include_graphics("figures/psychology.png")
 .right-column[
 * **Teaching concept**
   
-  * Introduction to Psychology I & II (Lecture + exercies) <br> <br>
+  * Introduction to Psychology I & II (Lecture + exercises) <br> <br>
   
 
 * **Teaching lecture**
@@ -849,7 +838,7 @@ knitr::include_graphics("figures/CSSoverview.svg")
 --
 
 .pull-right[
-**"Social"**
+**"Social": Social media**
 * Misinformation
 * Collective emotions
 * Polarization
@@ -857,7 +846,7 @@ knitr::include_graphics("figures/CSSoverview.svg")
 * Emotion regulation
 * Social media effects on wellbeing
 * Media effects on suicide
-* Depression & Anxiety
+* Detecting depression & anxiety
 ]
 
 --
@@ -912,8 +901,8 @@ Random Forest: decision tree tries to split by the variable that maximally separ
 .pull-left[
 * Learn sentence structure and semantics from large text corpora
 
-* BERT: Masked word prediction <span style="font-size: 22px; font-color: gray"> <br> Devlin et al. (2019) </span> 
-    * 12 layers
+* BERT: 12 layers <span style="font-size: 22px; font-color: gray"> Devlin et al. (2019) </span> 
+    * Masked word prediction
     * “New **[MASK]** is a city” 
 
 * Input layer: Quantitative representation of sentence
@@ -954,7 +943,7 @@ Prediction, not inference: conclusions we draw need to be valid for new data
 # Example: ML for Suicide Prevention
 
 * Social contagion effect for suicidal behavior
-* Messages about suicide are associated with case numbers & helpline calls
+* Messages about suicide are associated with suicide cases & helpline calls
 * Text characteristics matter
 
 ```{r, echo=FALSE, out.width=900, fig.align='center'}
@@ -1008,7 +997,7 @@ knitr::include_graphics("figures/actual_vs_predicted.png")
 * **F1-Score**: harmonic mean of precision & recall
 ]]
 ???
-Explain Numerator and denominator
+
 A model can have good precision and bad recall => F1
 
 ---
@@ -1019,7 +1008,7 @@ A model can have good precision and bad recall => F1
 knitr::include_graphics("figures/metrics.svg")
 ```
 ]
---
+
 .pull-right[
 * Deep Learning models similar and better than TF-IDF.
 
@@ -1034,13 +1023,9 @@ knitr::include_graphics("figures/metrics.svg")
 knitr::include_graphics("figures/MLresults_per_category.svg")
 ```
 
-* Accuracy problematic: Majority class "irrelevant"
-* Some categories work better than others
-  * Homogenous classes: Prevention, Werther
-  * Suicidal ideation vs. sarcastic remarks
-
-???
-if time: insert figure of time series
+* Irrelevant: Accuracy problematic
+* Prevention: Model detects 90%
+* Suicidal thoughts: Model misses many - sarcastic messages
 
 ---
 layout: true
@@ -1049,15 +1034,15 @@ layout: true
 
 # Conclusion
 
-* CSS as highly interdisciplinary field
+* CSS as highly interdisciplinary field including psychology
 
-* Digital technologies: New opportunities for psychological research
+* Digital technologies & social media: <br>
+  * New opportunities for social psychological research
 
 * Basics in Machine Learning for text analysis
 
 * Machine Learning as a useful & effective tool for psychological research: Large-scale analysis
 
-<br>
 
 # Thank you for your attention!
 

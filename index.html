@@ -128,7 +128,7 @@ Effects
 
 &lt;br&gt;
 System]
---
+
 .right-column[
 * **Digital traces of collective emotions**
 * **Validity of emotion &amp; sentiment measures** &lt;br&gt; &lt;br&gt;
@@ -243,15 +243,6 @@ attention for evidence-based advocacy
 &lt;br&gt;
 Develop **digital interventions** that consider emotions
 
-
-???
-
-Misinfo: mention WWTF funding and 1 student + research assistant that will work with me in next 3 years 
-
-put last 2 points together as information spreading: protection + information spreading
-pictures larger
-make slide about EA for questions
-
 ---
 
 # Media effects research on suicide
@@ -334,8 +325,7 @@ Traditional ML &amp; Deep Learning
 ???
 Social media: young adults and new content types, but few studies
 Small datasets with manual labelling: Big data
-Best performance with BERT
-Different metrics related to how many false positives and false negative errors the model makes, that I will explain more in the teaching lecture
+Best performance with BERTp
 
 ---
 layout: true
@@ -347,7 +337,6 @@ layout: true
 # Associations with suicides &amp; helpline calls
 
 * Daily volume of tweets per category: Time series in the US
-
 &lt;img src="figures/CopingPreventionTweets.png" width="850" style="display: block; margin: auto auto auto 0;" /&gt;
 
 * Time series analysis with daily suicide cases &amp; helpline calls
@@ -516,7 +505,7 @@ background-size: contain
 .right-column[
 * **Teaching concept**
   
-  * Introduction to Psychology I &amp; II (Lecture + exercies) &lt;br&gt; &lt;br&gt;
+  * Introduction to Psychology I &amp; II (Lecture + exercises) &lt;br&gt; &lt;br&gt;
   
 
 * **Teaching lecture**
@@ -721,7 +710,7 @@ breadth and depth and scale.&lt;/span&gt;
 --
 
 .pull-right[
-**"Social"**
+**"Social": Social media**
 * Misinformation
 * Collective emotions
 * Polarization
@@ -729,7 +718,7 @@ breadth and depth and scale.&lt;/span&gt;
 * Emotion regulation
 * Social media effects on wellbeing
 * Media effects on suicide
-* Depression &amp; Anxiety
+* Detecting depression &amp; anxiety
 ]
 
 --
@@ -782,8 +771,8 @@ Random Forest: decision tree tries to split by the variable that maximally separ
 .pull-left[
 * Learn sentence structure and semantics from large text corpora
 
-* BERT: Masked word prediction &lt;span style="font-size: 22px; font-color: gray"&gt; &lt;br&gt; Devlin et al. (2019) &lt;/span&gt; 
-    * 12 layers
+* BERT: 12 layers &lt;span style="font-size: 22px; font-color: gray"&gt; Devlin et al. (2019) &lt;/span&gt; 
+    * Masked word prediction
     * “New **[MASK]** is a city” 
 
 * Input layer: Quantitative representation of sentence
@@ -820,7 +809,7 @@ Prediction, not inference: conclusions we draw need to be valid for new data
 # Example: ML for Suicide Prevention
 
 * Social contagion effect for suicidal behavior
-* Messages about suicide are associated with case numbers &amp; helpline calls
+* Messages about suicide are associated with suicide cases &amp; helpline calls
 * Text characteristics matter
 
 &lt;img src="figures/suicide_tweets.png" width="900" style="display: block; margin: auto;" /&gt;
@@ -868,7 +857,7 @@ Prediction, not inference: conclusions we draw need to be valid for new data
 * **F1-Score**: harmonic mean of precision &amp; recall
 ]]
 ???
-Explain Numerator and denominator
+
 A model can have good precision and bad recall =&gt; F1
 
 ---
@@ -877,7 +866,7 @@ A model can have good precision and bad recall =&gt; F1
 .pull-left[
 &lt;img src="figures/metrics.svg" width="500" /&gt;
 ]
---
+
 .pull-right[
 * Deep Learning models similar and better than TF-IDF.
 
@@ -890,13 +879,9 @@ A model can have good precision and bad recall =&gt; F1
 
 &lt;img src="figures/MLresults_per_category.svg" width="1000" style="display: block; margin: auto;" /&gt;
 
-* Accuracy problematic: Majority class "irrelevant"
-* Some categories work better than others
-  * Homogenous classes: Prevention, Werther
-  * Suicidal ideation vs. sarcastic remarks
-
-???
-if time: insert figure of time series
+* Irrelevant: Accuracy problematic
+* Prevention: Model detects 90%
+* Suicidal thoughts: Model misses many - sarcastic messages
 
 ---
 layout: true
@@ -905,15 +890,15 @@ layout: true
 
 # Conclusion
 
-* CSS as highly interdisciplinary field
+* CSS as highly interdisciplinary field including psychology
 
-* Digital technologies: New opportunities for psychological research
+* Digital technologies &amp; social media: &lt;br&gt;
+  * New opportunities for social psychological research
 
 * Basics in Machine Learning for text analysis
 
 * Machine Learning as a useful &amp; effective tool for psychological research: Large-scale analysis
 
-&lt;br&gt;
 
 # Thank you for your attention!
 
