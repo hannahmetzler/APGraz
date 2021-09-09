@@ -773,7 +773,7 @@ knitr::include_graphics("figures/CSSoverview.svg")
     * Term Frequency-Inverse Document Frequency
     
 * Word embeddings
-```{r, echo=FALSE, out.width=500}
+```{r, echo=FALSE, out.width=250, fig.align='right'}
 knitr::include_graphics("figures/wordembeddings.svg")
 ```
 ]]
@@ -877,11 +877,12 @@ knitr::include_graphics("figures/suicide_tweets.png")
 
 * Manual labelling of 3200 tweets
 
-* Multiclass classification task: 6 categories
+* Multiclass classification task: <br> 6 categories
 
 * Comparing different methods: 
   * Word frequency
   * Deep learning
+  * Best: BERT
 ]
 .pull-right[
 ```{r, echo=FALSE, out.width=500, fig.align='center'}
