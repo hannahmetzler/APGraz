@@ -220,7 +220,6 @@ attention for evidence-based advocacy
 
 --
 
-<br>
 Develop **digital interventions** that consider emotions
 
 ---
@@ -327,7 +326,6 @@ layout:true
 # Role of emotion in suicide prevention 
 
 * No effect:  Oregon Media Project: Suicide Prevention Campaign<span style="font-size: 18px">   <br> Niederkrotenthaler, Metzler et al. (in prep) </span>
-
 * Protective: 1-800-273-8255 song by Logic <span style="font-size: 18px"> Niederkrotenthaler et al. (in prep) </span>
 
 ```{r, echo=FALSE, out.width=400, fig.align='center'}
@@ -860,7 +858,9 @@ A Machine Learning approach to media effects research on suicide. Metzler, Bagin
 # Example: ML for Suicide Prevention
 
 * Social contagion effect for suicidal behavior <span style="font-size: 18px"><a href='https://www.bmj.com/content/368/bmj.m575'> e.g. Niederkrotenthaler et al. (2020) </a> </span>
-* Messages about suicide are associated with suicide cases & helpline calls
+--
+
+* Reporting on suicide is associated with suicide cases & helpline calls
 * Text characteristics matter: Classifying different types of tweets
 
 ```{r, echo=FALSE, out.width=900, fig.align='center'}
@@ -949,7 +949,7 @@ layout: true
 * Machine Learning as a useful & effective tool for psychological research: Large-scale analysis
 
 
-# Thank you for your attention!
+# Thank you! Questions?
 
 ???
 
