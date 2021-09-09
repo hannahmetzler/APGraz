@@ -326,9 +326,9 @@ layout:true
 
 # Role of emotion in suicide prevention 
 
-* No effect:  Oregon Media Project: Suicide Prevention Campaign
+* No effect:  Oregon Media Project: Suicide Prevention Campaign<span style="font-size: 18px">   <br> Niederkrotenthaler, Metzler et al. (in prep) </span>
 
-* Protective: 1-800-273-8255 song by Logic
+* Protective: 1-800-273-8255 song by Logic <span style="font-size: 18px"> Niederkrotenthaler et al. (in prep) </span>
 
 ```{r, echo=FALSE, out.width=400, fig.align='center'}
 knitr::include_graphics("figures/sad&info.svg")
