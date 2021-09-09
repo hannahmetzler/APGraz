@@ -166,7 +166,7 @@ layout: true
 
 ---
 
-# Validity of emotion & sentiment measures
+# Validity of emotion measures
 
 .pull-left[.center-left[
 * UK Twitter data
@@ -306,10 +306,10 @@ layout: true
 
 ---
 
-# Associations with suicides & helpline calls
+# Associations with suicides & calls
 
 * Daily volume of tweets per category: Time series in the US
-```{r, echo=FALSE, out.width=850, fig.align='left'}
+```{r, echo=FALSE, out.width=830, fig.align='left'}
 knitr::include_graphics("figures/CopingPreventionTweets.png")
 ```
 

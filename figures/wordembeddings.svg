@@ -12,9 +12,9 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg2"
-   width="724.30463"
-   height="284.05682"
-   viewBox="0 0 724.30463 284.05682"
+   width="343.8815"
+   height="287.01184"
+   viewBox="0 0 343.8815 287.01184"
    sodipodi:docname="wordembeddings.svg"
    inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
   <metadata
@@ -53,6 +53,17 @@
          x="9.0772219"
          y="61.61541" />
     </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath13">
+      <rect
+         style="opacity:1;fill:#006680;fill-opacity:1;stroke:#006680;stroke-width:7.26297045;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:10.28661251;stroke-opacity:1"
+         id="rect15"
+         width="346.19217"
+         height="287.01184"
+         x="-2.3106785"
+         y="59.799183" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -71,9 +82,9 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     inkscape:zoom="0.4390625"
-     inkscape:cx="539.80511"
-     inkscape:cy="-203.47329"
+     inkscape:zoom="0.21953125"
+     inkscape:cx="1333.8588"
+     inkscape:cy="-101.92602"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
@@ -86,6 +97,6 @@
      id="image10"
      x="0"
      y="0"
-     clip-path="url(#clipPath11)"
-     transform="translate(-9.0772219,-61.61541)" />
+     clip-path="url(#clipPath13)"
+     transform="translate(0,-59.799183)" />
 </svg>
