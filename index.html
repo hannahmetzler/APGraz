@@ -698,11 +698,11 @@ Random Forest: decision tree tries to split by the variable that maximally separ
 ]
 
 ???
+One hot encoding: output has as many units as words in the dictionary, one has a maximum value which is the one we predict, mention that output layer is probabilities
 Potato example
-One hot encoding: input layer has as many words as there are in the sentence, mention that output layer is probabilities
 Input: one-hot times embedding, everything but the mask
 
-output has as many units as words in the dictionary, one has a maximum value which is the one we predict
+
 
     * 15% of words masked: “[MASK] **[MASK]** is a city, in which ...”
 * XLNET: Permutations of all words used to predict masked word &lt;span style="font-size: 22px; font-color: gray"&gt; Yang et al. (2019) &lt;/span&gt; 
@@ -717,12 +717,19 @@ output has as many units as words in the dictionary, one has a maximum value whi
 Prediction, not inference: conclusions we draw need to be valid for new data
 
 ---
+layout: true
+&lt;div class="my-footer"&gt;&lt;span&gt; 
+A Machine Learning approach to media effects research on suicide. Metzler, Baginski, Niederkrotenthaler &amp; Garcia (in prep.) &lt;/span&gt;&lt;/div&gt;
+
+---
+
+
 
 # Example: ML for Suicide Prevention
 
-* Social contagion effect for suicidal behavior
+* Social contagion effect for suicidal behavior &lt;span style="font-size: 18px"&gt;&lt;a href='https://www.bmj.com/content/368/bmj.m575'&gt; e.g. Niederkrotenthaler et al. (2020) &lt;/a&gt; &lt;/span&gt;
 * Messages about suicide are associated with suicide cases &amp; helpline calls
-* Text characteristics matter
+* Text characteristics matter: Classifying different types of tweets
 
 &lt;img src="figures/suicide_tweets.png" width="900" style="display: block; margin: auto;" /&gt;
 
@@ -774,19 +781,6 @@ A model can have good precision and bad recall =&gt; F1
 
 ---
 
-# Results: Model Comparison
-.pull-left[
-&lt;img src="figures/metrics.svg" width="500" /&gt;
-]
-
-.pull-right[
-* Deep Learning models similar and better than TF-IDF.
-
-* Valuable information in context beyond word frequencies
-]
-
----
-
 # Results: Performance per tweet category
 
 &lt;img src="figures/MLresults_per_category.svg" width="1000" style="display: block; margin: auto;" /&gt;
@@ -794,6 +788,8 @@ A model can have good precision and bad recall =&gt; F1
 * Irrelevant: Accuracy problematic
 * Prevention: Model detects 90%
 * Suicidal thoughts: Model misses many - sarcastic messages
+* State-of-the art performance &lt;span style="font-size: 18px"&gt;&lt;a href='https://www.sciencedirect.com/science/article/pii/S2468696417300605'&gt; Burnap et al. (2017) &lt;/a&gt; &lt;/span&gt;
+* Next: Associations of 14 mio tweets with suicides &amp; calls
 
 ---
 layout: true

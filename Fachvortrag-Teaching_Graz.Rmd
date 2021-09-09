@@ -828,11 +828,11 @@ knitr::include_graphics("figures/neuralnet.svg")
 ]
 
 ???
+One hot encoding: output has as many units as words in the dictionary, one has a maximum value which is the one we predict, mention that output layer is probabilities
 Potato example
-One hot encoding: input layer has as many words as there are in the sentence, mention that output layer is probabilities
 Input: one-hot times embedding, everything but the mask
 
-output has as many units as words in the dictionary, one has a maximum value which is the one we predict
+
 
     * 15% of words masked: “[MASK] **[MASK]** is a city, in which ...”
 * XLNET: Permutations of all words used to predict masked word <span style="font-size: 22px; font-color: gray"> Yang et al. (2019) </span> 
@@ -849,12 +849,19 @@ knitr::include_graphics("figures/MLTraining.svg")
 Prediction, not inference: conclusions we draw need to be valid for new data
 
 ---
+layout: true
+<div class="my-footer"><span> 
+A Machine Learning approach to media effects research on suicide. Metzler, Baginski, Niederkrotenthaler & Garcia (in prep.) </span></div>
+
+---
+
+
 
 # Example: ML for Suicide Prevention
 
-* Social contagion effect for suicidal behavior
+* Social contagion effect for suicidal behavior <span style="font-size: 18px"><a href='https://www.bmj.com/content/368/bmj.m575'> e.g. Niederkrotenthaler et al. (2020) </a> </span>
 * Messages about suicide are associated with suicide cases & helpline calls
-* Text characteristics matter
+* Text characteristics matter: Classifying different types of tweets
 
 ```{r, echo=FALSE, out.width=900, fig.align='center'}
 knitr::include_graphics("figures/suicide_tweets.png")
@@ -912,21 +919,6 @@ A model can have good precision and bad recall => F1
 
 ---
 
-# Results: Model Comparison
-.pull-left[
-```{r, echo=FALSE, out.width=500}
-knitr::include_graphics("figures/metrics.svg")
-```
-]
-
-.pull-right[
-* Deep Learning models similar and better than TF-IDF.
-
-* Valuable information in context beyond word frequencies
-]
-
----
-
 # Results: Performance per tweet category
 
 ```{r, echo=FALSE, out.width=1000, fig.align='center'}
@@ -936,6 +928,8 @@ knitr::include_graphics("figures/MLresults_per_category.svg")
 * Irrelevant: Accuracy problematic
 * Prevention: Model detects 90%
 * Suicidal thoughts: Model misses many - sarcastic messages
+* State-of-the art performance <span style="font-size: 18px"><a href='https://www.sciencedirect.com/science/article/pii/S2468696417300605'> Burnap et al. (2017) </a> </span>
+* Next: Associations of 14 mio tweets with suicides & calls
 
 ---
 layout: true
