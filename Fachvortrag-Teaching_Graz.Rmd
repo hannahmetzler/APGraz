@@ -930,7 +930,6 @@ knitr::include_graphics("figures/MLresults_per_category.svg")
 * Prevention: Model detects 90%
 * Suicidal thoughts: Model misses many - sarcastic messages
 * State-of-the art performance <span style="font-size: 18px"><a href='https://www.sciencedirect.com/science/article/pii/S2468696417300605'> Burnap et al. (2017) </a> </span>
-* Next: Associations of 14 mio tweets with suicides & calls
 
 ---
 layout: true
