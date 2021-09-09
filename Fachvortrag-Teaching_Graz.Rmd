@@ -45,38 +45,7 @@ background-size: contain
 ### 09.09.2021 - University of Graz
 #### Slides: www.hannahmetzler.eu/APGraz
 
----
 
-# My background
-
-.left-column[
-```{r, echo=FALSE, out.width=200, fig.align='center'}
-knitr::include_graphics("figures/uniwien.jpg")
-```
-```{r, echo=FALSE, out.width=220, fig.align='center'}
-knitr::include_graphics("figures/ens_sorbonne.svg")
-```
-
-```{r, echo=FALSE, out.width=110, fig.align='center'}
-knitr::include_graphics("figures/knowcenter2.svg")
-```
-```{r, echo=FALSE, out.width=190, fig.align='center'}
-knitr::include_graphics("figures/csh.png")
-```
-]
-
-.right-column[.center-right[
-* Master in Psychology
-* <span style="font-size: 25px; font-style: italic">Emotional, hormonal & neural gender differences in stress responses</span> <br> <br> 
-* PhD in Social & Affective Neuroscience
-* <span style="font-size: 25px; font-style: italic">The influence of bodily actions on social perception & behaviour <br> <br>
-* Postdoc & Project Manager in Open Science <br> <br>
-* Postdoc in Computational Social Science
-]]
-
-```{r, echo=FALSE, out.width=750}
-knitr::include_graphics("figures/my_associations.svg")
-```
 
 ---
 layout: true
